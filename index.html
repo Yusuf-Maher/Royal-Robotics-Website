@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-home">
+          <div class="home-content">
+            <div class="home-toppage">
+              <div class="home-frame21">
+                <span class="home-text10 Heading07">
+                  <span>Bishop Reding</span>
+                  <br />
+                  <span>FIRST Robotics</span>
+                </span>
+                <span class="home-text14 Heading11">Royal Robotics</span>
+                <div class="home-frame31">
+                  <button class="home-button-secondary">
+                    <div class="home-inner">
+                      <span class="home-text15">About Us</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="home-robot">
+                <img
+                  src="public/external/vector1725-0v84.svg"
+                  alt="Vector1725"
+                  class="home-vector11"
+                />
+                <img
+                  src="public/external/uploadimageremovebg1721-rjo-600h.png"
+                  alt="UploadImageremovebg1721"
+                  class="home-upload-imageremovebg1"
+                />
+              </div>
+            </div>
+            <div class="home-frame61">
+              <div class="home-brand1">
+                <div class="home-group18">
+                  <img
+                    src="public/external/fill1i198-vt3s.svg"
+                    alt="Fill1I198"
+                    class="home-fill110"
+                  />
+                  <img
+                    src="public/external/fill3i198-a4ix.svg"
+                    alt="Fill3I198"
+                    class="home-fill31"
+                  />
+                  <img
+                    src="public/external/fill5i198-8c66.svg"
+                    alt="Fill5I198"
+                    class="home-fill5"
+                  />
+                  <div class="home-group9">
+                    <img
+                      src="public/external/fill7i198-phd.svg"
+                      alt="Fill7I198"
+                      class="home-fill7"
+                    />
+                  </div>
+                  <img
+                    src="public/external/fill10i198-p6ft.svg"
+                    alt="Fill10I198"
+                    class="home-fill101"
+                  />
+                  <div class="home-group14">
+                    <img
+                      src="public/external/fill12i198-jr.svg"
+                      alt="Fill12I198"
+                      class="home-fill121"
+                    />
+                  </div>
+                  <div class="home-group17">
+                    <img
+                      src="public/external/fill15i198-vo3h.svg"
+                      alt="Fill15I198"
+                      class="home-fill151"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-brand2">
+                <div class="home-group27">
+                  <img
+                    src="public/external/fill1i198-z02.svg"
+                    alt="Fill1I198"
+                    class="home-fill111"
+                  />
+                  <img
+                    src="public/external/fill2i198-ic2d.svg"
+                    alt="Fill2I198"
+                    class="home-fill22"
+                  />
+                  <img
+                    src="public/external/fill3i198-9cza.svg"
+                    alt="Fill3I198"
+                    class="home-fill32"
+                  />
+                  <div class="home-group161">
+                    <img
+                      src="public/external/fill4i198-xlhsf.svg"
+                      alt="Fill4I198"
+                      class="home-fill41"
+                    />
+                    <div class="home-group8">
+                      <img
+                        src="public/external/fill6i198-hfoa.svg"
+                        alt="Fill6I198"
+                        class="home-fill61"
+                      />
+                    </div>
+                    <img
+                      src="public/external/fill9i198-piul.svg"
+                      alt="Fill9I198"
+                      class="home-fill9"
+                    />
+                    <img
+                      src="public/external/fill11i198-l4ya.svg"
+                      alt="Fill11I198"
+                      class="home-fill11"
+                    />
+                    <img
+                      src="public/external/fill13i198-3eju.svg"
+                      alt="Fill13I198"
+                      class="home-fill13"
+                    />
+                    <img
+                      src="public/external/fill14i198-cb85.svg"
+                      alt="Fill14I198"
+                      class="home-fill141"
+                    />
+                    <img
+                      src="public/external/fill15i198-rb1aic.svg"
+                      alt="Fill15I198"
+                      class="home-fill152"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-brand3">
+                <div class="home-group21">
+                  <img
+                    src="public/external/fill1i198-5kw.svg"
+                    alt="Fill1I198"
+                    class="home-fill112"
+                  />
+                  <div class="home-group20">
+                    <img
+                      src="public/external/fill2i198-khiu.svg"
+                      alt="Fill2I198"
+                      class="home-fill23"
+                    />
+                    <img
+                      src="public/external/fill4i198-2ol.svg"
+                      alt="Fill4I198"
+                      class="home-fill42"
+                    />
+                    <img
+                      src="public/external/fill6i198-3an7.svg"
+                      alt="Fill6I198"
+                      class="home-fill62"
+                    />
+                    <img
+                      src="public/external/fill8i198-pzjf.svg"
+                      alt="Fill8I198"
+                      class="home-fill81"
+                    />
+                    <img
+                      src="public/external/fill10i198-ycj6.svg"
+                      alt="Fill10I198"
+                      class="home-fill102"
+                    />
+                    <img
+                      src="public/external/fill12i198-vh4a.svg"
+                      alt="Fill12I198"
+                      class="home-fill122"
+                    />
+                    <img
+                      src="public/external/fill14i198-p53s.svg"
+                      alt="Fill14I198"
+                      class="home-fill142"
+                    />
+                    <img
+                      src="public/external/fill16i198-senr.svg"
+                      alt="Fill16I198"
+                      class="home-fill16"
+                    />
+                    <img
+                      src="public/external/fill18i198-ywnt.svg"
+                      alt="Fill18I198"
+                      class="home-fill18"
+                    />
+                    <img
+                      src="public/external/fill19i198-i5wb.svg"
+                      alt="Fill19I198"
+                      class="home-fill191"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-brand4">
+                <div class="home-group25">
+                  <img
+                    src="public/external/fill1i198-806.svg"
+                    alt="Fill1I198"
+                    class="home-fill113"
+                  />
+                  <div class="home-group24">
+                    <img
+                      src="public/external/fill2i198-maxs.svg"
+                      alt="Fill2I198"
+                      class="home-fill24"
+                    />
+                    <img
+                      src="public/external/fill4i198-7sn.svg"
+                      alt="Fill4I198"
+                      class="home-fill43"
+                    />
+                    <img
+                      src="public/external/fill6i198-88go.svg"
+                      alt="Fill6I198"
+                      class="home-fill63"
+                    />
+                    <img
+                      src="public/external/fill8i198-a59.svg"
+                      alt="Fill8I198"
+                      class="home-fill82"
+                    />
+                    <img
+                      src="public/external/fill10i198-d4ym.svg"
+                      alt="Fill10I198"
+                      class="home-fill103"
+                    />
+                    <img
+                      src="public/external/fill12i198-v7h.svg"
+                      alt="Fill12I198"
+                      class="home-fill123"
+                    />
+                    <div class="home-group162">
+                      <img
+                        src="public/external/fill14i198-4ppe.svg"
+                        alt="Fill14I198"
+                        class="home-fill143"
+                      />
+                    </div>
+                    <img
+                      src="public/external/fill17i198-ra19.svg"
+                      alt="Fill17I198"
+                      class="home-fill17"
+                    />
+                    <img
+                      src="public/external/fill19i198-tu6j.svg"
+                      alt="Fill19I198"
+                      class="home-fill192"
+                    />
+                    <div class="home-group23">
+                      <img
+                        src="public/external/fill21i198-w1wp.svg"
+                        alt="Fill21I198"
+                        class="home-fill21"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-middle-body">
+              <img
+                src="public/external/vector11614-ech8.svg"
+                alt="Vector11614"
+                class="home-vector12"
+              />
+              <div class="home-frame231">
+                <div class="home-frame221">
+                  <span class="home-text16 Heading08">
+                    What Is FIRST Robotics?
+                  </span>
+                </div>
+                <div class="home-frame261">
+                  <div class="home-item-image1">
+                    <img
+                      src="public/external/lightitemimage1i941-broa-300h.png"
+                      alt="LightItemimage1I941"
+                      class="home-light-itemimage11"
+                    />
+                  </div>
+                  <div class="home-horizontal-image1">
+                    <img
+                      src="public/external/lightbighorizontalimage2i942-g7kn-300h.png"
+                      alt="LightBigHorizontalimage2I942"
+                      class="home-light-big-horizontalimage2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-frame222">
+                <span class="home-text17">
+                  <span>
+                    FIRST Robotics, is a worldwide organization that provides
+                    students who are passionate in, technology, engineering, and
+                    mathematics (STEM) through hands-on robotics competitions.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    These competitions bring students from different schools and
+                    age groups to design, build, and program robots to compete
+                    in various tasks and challenges.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    These competitions not only teach valuable technical skills
+                    but also promote teamwork, as each team has to work together
+                    to create a robot. First Robotics provides an amazing
+                    learning experience that is fun and competitive.
+                  </span>
+                </span>
+              </div>
+              <div class="home-frame25">
+                <div class="home-frame223">
+                  <span class="home-text25 Heading11">The Teams</span>
+                  <span class="home-text26">
+                    <span>
+                      Bishop Reding First Robotics Team Leads are dedicated and
+                      passionate student leaders. Our team consists of:
+                    </span>
+                    <br />
+                    <span>Business</span>
+                    <br />
+                    <span>Strategy</span>
+                    <br />
+                    <span>Design</span>
+                    <br />
+                    <span>Electrical</span>
+                    <br />
+                    <span>Manufacturing</span>
+                    <br />
+                    <span>Mechanical</span>
+                    <br />
+                    <span>Programming</span>
+                    <br />
+                    <span>Imagery/Media</span>
+                    <br />
+                    <span>Safety</span>
+                  </span>
+                </div>
+                <div class="home-frame262">
+                  <div class="home-horizontal-image2">
+                    <img
+                      src="public/external/imagei948-rfe6-400w.png"
+                      alt="imageI948"
+                      class="home-image1"
+                    />
+                  </div>
+                  <div class="home-item-image2">
+                    <img
+                      src="public/external/lightitemimage1i949-9lrj-300w.png"
+                      alt="LightItemimage1I949"
+                      class="home-light-itemimage12"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-frame232">
+                <div class="home-vertical-image">
+                  <img
+                    src="public/external/img082811282-1i4m-500h.png"
+                    alt="IMG082811282"
+                    class="home-img08281"
+                  />
+                </div>
+                <div class="home-frame30">
+                  <div class="home-frame224">
+                    <span class="home-text46 Heading09">
+                      Bishop Reding Secondary School
+                    </span>
+                  </div>
+                  <div class="home-frame24">
+                    <span class="home-text47">
+                      <span>
+                        Our school has a strong reputation for its academic
+                        programs, and supportive learning environment, while
+                        offering a variety of advanced placement (AP) courses.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        The school offers many extracurriculars, including
+                        athletics, clubs, and community service opportunities
+                        that encourage teamwork, and leadership skills.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-footer">
+              <div class="home-frame8">
+                <div class="home-frame7">
+                  <div class="home-frame27">
+                    <span class="home-text52 Heading12">Contact</span>
+                    <span class="home-text53 Paragraph02">
+                      <span>Royalrobotics9562@hotmail.com</span>
+                      <br />
+                      <span>School Number:</span>
+                      <br />
+                      <span>(905) - 875 - 0124</span>
+                    </span>
+                  </div>
+                  <div class="home-frame32">
+                    <span class="home-text59 Heading12">Location</span>
+                    <span class="home-text60 Paragraph02">
+                      1120 Main St E, Milton, ON L9T 6H7
+                    </span>
+                  </div>
+                  <div class="home-frame4">
+                    <span class="home-text61 Heading12">Socials</span>
+                    <div class="home-frame5">
+                      <button class="home-social-button">
+                        <a
+                          href="https://www.instagram.com/frc9562?igsh=aWlyNHkyNGRqZm52"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-link"
+                        >
+                          <div class="home-instagram">
+                            <img
+                              src="public/external/instagram1i307-o5f1.svg"
+                              alt="instagram1I307"
+                              class="home-instagram1"
+                            />
+                          </div>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="home-frame62">
+                  <div class="home-robotics-logo">
+                    <img
+                      src="public/external/image2416-t05-200w.png"
+                      alt="image2416"
+                      class="home-image2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="home-frame9">
+                <span class="home-text62 Paragraph01">
+                  © 2025 by Imagery Team
+                </span>
+                <span class="home-text63 Paragraph01"></span>
+              </div>
+            </div>
+          </div>
+          <div class="home-header">
+            <div class="home-center">
+              <img
+                src="public/external/rectangle13115-eh9i-200h.png"
+                alt="Rectangle13115"
+                class="home-rectangle1"
+              />
+              <img
+                src="public/external/rectangle22522-7hcn-200h.png"
+                alt="Rectangle22522"
+                class="home-rectangle2"
+              />
+              <img
+                src="public/external/rectangle32528-95bd-200h.png"
+                alt="Rectangle32528"
+                class="home-rectangle3"
+              />
+              <img
+                src="public/external/rectangle42530-qd2j-200h.png"
+                alt="Rectangle42530"
+                class="home-rectangle4"
+              />
+              <img
+                src="public/external/rectangle52532-u9j-200h.png"
+                alt="Rectangle52532"
+                class="home-rectangle5"
+              />
+              <img
+                src="public/external/roboticslogo0123118-lr8d-200h.png"
+                alt="RoboticsLogo0123118"
+                class="home-robotics-logo012"
+              />
+            </div>
+            <div class="home-right">
+              <a href="contectus.html" class="home-text64 Paragraph02">
+                Contact Us
+              </a>
+            </div>
+            <div class="home-middle-right">
+              <a href="donations.html" class="home-text65 Paragraph02">
+                Donations
+              </a>
+            </div>
+            <div class="home-middle-left">
+              <a href="about-us.html" class="home-text66 Paragraph02">
+                About Us
+              </a>
+            </div>
+            <div class="home-left">
+              <span class="home-text67 Paragraph03">Home</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
