@@ -1434,66 +1434,137 @@
   height: 99px;
   position: absolute;
 }
-.about-us-right {
-  gap: 10px;
-  top: 27px;
-  left: 1102px;
-  width: 84px;
+
+
+
+.aboutus-right {
   display: flex;
+  justify-content: center; /* Centers the button horizontally within the container */
+  align-items: center; /* Centers the button vertically within the container */
+  padding: 10px; /* Optional spacing around the button */
+}
+.contact-us-button {
   position: absolute;
-  align-items: center;
-  justify-content: center;
+  top: 20px;
+  left: 1080px;
+  width: 127px;
+  height: 41px;
+  display: inline-block;
+  padding: 10px 20px; /* Controls button size */
+  background-color: #ffffff; /* Red background */
+  color: #000000; /* White text color */
+  font-size: 16px; /* Adjust text size */
+  /*font-weight: bold; /* Bold text */
+  text-decoration: none; /* Removes underline from link */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.about-us-text203 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  text-align: right;
-  line-height: 160.0000023841858%;
+.contact-us-button:hover {
+  background-color: #818181; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
 }
-.about-us-middle-right {
-  gap: 10px;
-  top: 27px;
-  left: 904px;
-  width: 77px;
+.contact-us-button:active {
+  transform: scale(0.95); /* Click effect */
+}
+
+
+.aboutus-middle-right {
   display: flex;
+  justify-content: center; /* Centers the button horizontally within the container */
+  align-items: center; /* Centers the button vertically within the container */
+  padding: 10px; /* Optional spacing around the button */
+}
+.donations-button {
   position: absolute;
-  align-items: center;
-  justify-content: center;
+  top: 20px;
+  left: 878px;
+  width: 127px;
+  height: 41px;
+  display: inline-block;
+  padding: 10px 20px; /* Controls button size */
+  background-color: #ffffff; /* Red background */
+  color: #000000; /* White text color */
+  font-size: 16px; /* Adjust text size */
+  /*font-weight: bold; /* Bold text */
+  text-decoration: none; /* Removes underline from link */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.about-us-text204 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  text-align: right;
-  line-height: 160.0000023841858%;
+.donations-button:hover {
+  background-color: #818181; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
 }
-.about-us-middle-left {
-  gap: 10px;
-  top: 26px;
-  left: 307px;
-  width: 71px;
+.donations-button:active {
+  transform: scale(0.95); /* Click effect */
+}
+
+
+.aboutus-middle-left {
   display: flex;
+  justify-content: center; /* Centers the button horizontally within the container */
+  align-items: center; /* Centers the button vertically within the container */
+  padding: 10px; /* Optional spacing around the button */
+}
+.about-us-button {
   position: absolute;
-  align-items: center;
-  justify-content: center;
+  top: 20px;
+  left: 278px;
+  width: 127px;
+  height: 41px;
+  display: inline-block;
+  padding: 10px 20px; /* Controls button size */
+  background-color: #ffffff; /* Red background */
+  color: #000000; /* White text color */
+  font-size: 16px; /* Adjust text size */
+  /*font-weight: bold; /* Bold text */
+  text-decoration: none; /* Removes underline from link */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.about-us-text205 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  text-align: right;
-  line-height: 160.0000023841858%;
+.about-us-button:hover {
+  background-color: #818181; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
 }
-.about-us-left {
-  gap: 8px;
-  top: 25.5px;
-  left: 115px;
-  width: 52px;
+.about-us-button:active {
+  transform: scale(0.95); /* Click effect */
+}
+
+
+
+.aboutus-left {
   display: flex;
-  position: absolute;
-  align-items: center;
+  justify-content: center; /* Centers the button horizontally within the container */
+  align-items: center; /* Centers the button vertically within the container */
+  padding: 10px; /* Optional spacing around the button */
 }
-.about-us-text206 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  text-align: left;
-  line-height: 160.0000023841858%;
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  width: 127px;
+  height: 41px;
+  display: inline-block;
+  padding: 10px 20px; /* Controls button size */
+  background-color: #ffffff; /* Red background */
+  color: #000000; /* White text color */
+  font-size: 16px; /* Adjust text size */
+  /*font-weight: bold; /* Bold text */
+  text-decoration: none; /* Removes underline from link */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.home-button:hover {
+  background-color: #818181; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+.home-button:active {
+  transform: scale(0.95); /* Click effect */
 }
