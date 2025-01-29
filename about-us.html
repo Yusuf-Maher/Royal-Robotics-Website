@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./about-us.css" rel="stylesheet" />
+
+      <div class="about-us-container">
+        <div class="about-us-about-us">
+          <div class="about-us-content">
+            <div class="about-us-hero7">
+              <div class="about-us-frame51">
+                <div class="about-us-frame22">
+                  <span class="about-us-text100 Heading06">About Us</span>
+                  <span class="about-us-text101 Paragraph02">
+                    Our mission is to design, build and program robots that
+                    solve real-world challenges while creating a love for STEM
+                    (Science, Technology, Engineering, Mathematics) in our
+                    community. We aim to push boundaries of technology and
+                    inspire the next generation of problem solvers and
+                    engineers!
+                  </span>
+                </div>
+              </div>
+              <div class="about-us-frame61">
+                <div class="about-us-vertical-image1">
+                  <img
+                    src="public/external/lightbigverticali862-p0bo-1200w.png"
+                    alt="LightBigVerticalI862"
+                    class="about-us-light-big-vertical"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="about-us-ourteam">
+              <div class="about-us-frame23">
+                <span class="about-us-text102 Heading08">Our Team</span>
+              </div>
+              <div class="about-us-people">
+                <div class="about-us-frame91">
+                  <div class="about-us-item-image10">
+                    <img
+                      src="public/external/lightitemimage1i120-31u-300w.png"
+                      alt="LightItemimage1I120"
+                      class="about-us-light-itemimage110"
+                    />
+                  </div>
+                  <div class="about-us-frame1010">
+                    <div class="about-us-frame1011">
+                      <span class="about-us-text103 Heading12">Item Title</span>
+                      <img
+                        src="public/external/external1203-rfy6.svg"
+                        alt="External1203"
+                        class="about-us-external1"
+                      />
+                    </div>
+                    <span class="about-us-text104 Paragraph02">
+                      Add a short paragraph. Double click to edit and add your
+                      own text.
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame13">
+                  <div class="about-us-item-image11">
+                    <img
+                      src="public/external/lightitemimage1i120-nm8p-300w.png"
+                      alt="LightItemimage1I120"
+                      class="about-us-light-itemimage111"
+                    />
+                  </div>
+                  <div class="about-us-frame1012">
+                    <div class="about-us-frame1013">
+                      <span class="about-us-text105 Heading12">Item Title</span>
+                      <img
+                        src="public/external/external1203-rjmn.svg"
+                        alt="External1203"
+                        class="about-us-external2"
+                      />
+                    </div>
+                    <span class="about-us-text106 Paragraph02">
+                      Add a short paragraph. Double click to edit and add your
+                      own text.
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame151">
+                  <div class="about-us-item-image12">
+                    <img
+                      src="public/external/lightitemimage1i120-h1g8-300w.png"
+                      alt="LightItemimage1I120"
+                      class="about-us-light-itemimage112"
+                    />
+                  </div>
+                  <div class="about-us-frame1014">
+                    <div class="about-us-frame1015">
+                      <span class="about-us-text107 Heading12">
+                        Sahejpreet Singh
+                      </span>
+                      <img
+                        src="public/external/external1203-nub.svg"
+                        alt="External1203"
+                        class="about-us-external3"
+                      />
+                    </div>
+                    <span class="about-us-text108 Paragraph02">
+                      <span>Mechanical Lead</span>
+                      <br />
+                      <span>Manufacturing Lead</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame141">
+                  <div class="about-us-item-image13">
+                    <img
+                      src="public/external/lightitemimage1i120-3gkt-300w.png"
+                      alt="LightItemimage1I120"
+                      class="about-us-light-itemimage113"
+                    />
+                  </div>
+                  <div class="about-us-frame1016">
+                    <div class="about-us-frame1017">
+                      <span class="about-us-text112 Heading12">
+                        Dylan Wehrle
+                      </span>
+                      <img
+                        src="public/external/external1203-i7stp.svg"
+                        alt="External1203"
+                        class="about-us-external4"
+                      />
+                    </div>
+                    <span class="about-us-text113 Paragraph02">
+                      <span>Team Captain</span>
+                      <br />
+                      <span>Electrical Lead</span>
+                      <br />
+                      <span>Driver</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame161">
+                  <div class="about-us-item-image14">
+                    <img
+                      src="public/external/lightitemimage1i120-sn4s-400h.png"
+                      alt="LightItemimage1I120"
+                      class="about-us-light-itemimage114"
+                    />
+                  </div>
+                  <div class="about-us-frame1018">
+                    <div class="about-us-frame1019">
+                      <span class="about-us-text119 Heading12">
+                        Firas Adnan Jalil
+                      </span>
+                    </div>
+                    <span class="about-us-text120 Paragraph02">
+                      Programming Lead
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame17">
+                  <div class="about-us-item-image15">
+                    <img
+                      src="public/external/lightitemimage1i125-7spp-400h.png"
+                      alt="LightItemimage1I125"
+                      class="about-us-light-itemimage115"
+                    />
+                  </div>
+                  <div class="about-us-frame1020">
+                    <div class="about-us-frame1021">
+                      <span class="about-us-text121 Heading12">
+                        Zuhayr Khan
+                      </span>
+                    </div>
+                    <span class="about-us-text122 Paragraph02">
+                      <span>Mentor</span>
+                      <br />
+                      <span>Drive Coach</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame181">
+                  <div class="about-us-item-image16">
+                    <img
+                      src="public/external/lightitemimage1i125-18ow-400h.png"
+                      alt="LightItemimage1I125"
+                      class="about-us-light-itemimage116"
+                    />
+                  </div>
+                  <div class="about-us-frame1022">
+                    <div class="about-us-frame1023">
+                      <span class="about-us-text126 Heading12">Item Title</span>
+                    </div>
+                    <span class="about-us-text127 Paragraph02">
+                      Add a short paragraph. Double click to edit and add your
+                      own text.
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame191">
+                  <div class="about-us-item-image17">
+                    <img
+                      src="public/external/lightitemimage1i125-x2uh-400h.png"
+                      alt="LightItemimage1I125"
+                      class="about-us-light-itemimage117"
+                    />
+                  </div>
+                  <div class="about-us-frame1024">
+                    <div class="about-us-frame1025">
+                      <span class="about-us-text128 Heading12">Item Title</span>
+                    </div>
+                    <span class="about-us-text129 Paragraph02">
+                      Add a short paragraph. Double click to edit and add your
+                      own text.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-us-our-school">
+              <div class="about-us-frame32">
+                <div class="about-us-frame31">
+                  <span class="about-us-text130 Heading08">Our Mission</span>
+                </div>
+                <div class="about-us-vertical-image2">
+                  <img
+                    src="public/external/image1617-pav-500h.png"
+                    alt="image1617"
+                    class="about-us-image1"
+                  />
+                </div>
+              </div>
+              <div class="about-us-frame1">
+                <span class="about-us-text131">
+                  <span class="about-us-text132">
+                    Bishop Reding Catholic Secondary School is excited to
+                    participate in the FIRST Robotics Competition (FRC) to
+                    strengthen students’ passion for technology and innovation.
+                    We offer a dynamic
+                  </span>
+                  <span class="about-us-text133">Tech Hub</span>
+                  <span class="about-us-text134">
+                    , which allows students to explore coding, programming, and
+                    hands-on projects, enhancing both technical skills and
+                    creativity.
+                  </span>
+                  <br />
+                  <br />
+                  <span class="about-us-text137">
+                    As a school of opportunity and inclusivity, in addition to
+                    clubs, we offer specialized classes in
+                  </span>
+                  <span class="about-us-text138">computer science</span>
+                  <span class="about-us-text139">and</span>
+                  <span class="about-us-text140">engineering</span>
+                  <span class="about-us-text141">, along with</span>
+                  <span class="about-us-text142">Advanced Placement (AP)</span>
+                  <span class="about-us-text143">programs and</span>
+                  <span class="about-us-text144">
+                    Specialist High School Major(SHSM)
+                  </span>
+                  <span>
+                    These offerings give students a strong foundation in
+                    technical knowledge. By participating in FRC, students can
+                    apply their skills in a competitive environment, fostering
+                    teamwork, and problem-solving abilities while dealing with
+                    complex challenges.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="about-us-frame152">
+              <div class="about-us-item-image18">
+                <img
+                  src="public/external/lightitemimage1i118-vkfl-300w.png"
+                  alt="LightItemimage1I118"
+                  class="about-us-light-itemimage118"
+                />
+              </div>
+              <div class="about-us-frame1026">
+                <div class="about-us-frame1027">
+                  <span class="about-us-text146 Heading12">Item Title</span>
+                  <img
+                    src="public/external/external1183-wso.svg"
+                    alt="External1183"
+                    class="about-us-external5"
+                  />
+                </div>
+                <span class="about-us-text147 Paragraph02">
+                  Add a short paragraph. Double click to edit and add your own
+                  text.
+                </span>
+              </div>
+            </div>
+            <div class="about-us-lists1">
+              <div class="about-us-frame182">
+                <span class="about-us-text148">Our Robot</span>
+                <span class="about-us-text149">
+                  The FIRST Robotics Competition aligns perfectly with our
+                  school's vision. It allows our students to apply their coding
+                  and tech skills in a real-world, competitive setting. We
+                  challenge them to collaborate, innovate, and engineer
+                  solutions to complex problems, having not only their technical
+                  acumen but also their teamwork and problem-solving abilities.
+                  As a group we come together to build and program our robot.
+                  Here are just a few out of the many components in ours.
+                </span>
+              </div>
+              <div class="about-us-frame211">
+                <div class="about-us-frame192">
+                  <div class="about-us-item-image19">
+                    <img
+                      src="public/external/lightitemimage1i161-zy0g-600w.png"
+                      alt="LightItemimage1I161"
+                      class="about-us-light-itemimage119"
+                    />
+                  </div>
+                  <div class="about-us-frame201">
+                    <span class="about-us-text150">Fabrication</span>
+                    <span class="about-us-text151">
+                      In our workspace we heavily used our 2 X-carve CNC to cut
+                      .090” thick 6061 aluminum, and ⅜” poly carbonate. We also
+                      used our sienci long mill mk1 to aid in drilling precise
+                      hole in 1”x1”, and 2”x1” extrusions. Many of our more
+                      geometrically complex parts were sent out to our gracious
+                      sponsor “Sable Metal” to be laser cut from 6061 aluminum
+                      and we thank them for all the support they have given us!
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame202">
+                  <div class="about-us-item-image20">
+                    <img
+                      src="public/external/lightitemimage11616-xxmk-500h.png"
+                      alt="LightItemimage11616"
+                      class="about-us-light-itemimage120"
+                    />
+                  </div>
+                  <div class="about-us-frame203">
+                    <span class="about-us-text152">Drivetrain</span>
+                    <span class="about-us-text153">
+                      <span>Chassis</span>
+                      <br />
+                      <span>
+                        MK4i Swerve Modules with L2 gear ratios driven by 2 NEO
+                        V1.1 with Spark Max controllers with a max speed of 4.9
+                        m/s.
+                      </span>
+                      <br />
+                      <span>YAGSL used for swerve drive software.</span>
+                      <br />
+                      <span>32 in long by 27.5 in wide.</span>
+                      <br />
+                      <span>
+                        2056 style 3D Printed swerve covers (Not Pictured in
+                        Render).
+                      </span>
+                      <br />
+                      <span>
+                        0.090” thick laser cut cut aluminum base plate.
+                      </span>
+                      <br />
+                      <span>
+                        Power Distribution Hub Riser for Wire Routing.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="about-us-frame212">
+                  <div class="about-us-item-image21">
+                    <img
+                      src="public/external/lightitemimage11615-yj6m-600w.png"
+                      alt="LightItemimage11615"
+                      class="about-us-light-itemimage121"
+                    />
+                  </div>
+                  <div class="about-us-frame204">
+                    <span class="about-us-text167">Intake</span>
+                    <span class="about-us-text168">
+                      <span>
+                        For our design we required an under-bumper intake that
+                        would feed the note directly into the shooter. We need
+                        it to be quick, robust, and easy to service all while
+                        being gentle with the Note.
+                      </span>
+                      <br />
+                      <span>
+                        NEO V.1 drives the intake with a 14 to 45 gear
+                        reduction.
+                      </span>
+                      <br />
+                      <span>
+                        2” Thrifty Bot Squish wheels paired with ¼” Round
+                        Polyurethane belts are used to intake the game piece for
+                        their high friction, coefficient, and compatibility
+                        reducing game piece damage.&nbsp;
+                      </span>
+                      <br />
+                      <span>Intake has ½” of compression on the Note.</span>
+                      <br />
+                      <span>
+                        Teflon Fabric Tape used to reduce friction on intake
+                        ramp surface.
+                      </span>
+                      <br />
+                      <span>
+                        Attached to Front Chassis Rail using “T-Nut” Style slots
+                        in the ⅜” Polycarbonate intake side plates.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-us-cards2">
+              <div class="about-us-frame24">
+                <span class="about-us-text180 Heading08">Awards</span>
+                <span class="about-us-text181">
+                  Our dedicated team members have worked tirelessly to achieve
+                  these prestigious awards and to create innovative robot
+                  designs. Their commitment, creativity, and teamwork have been
+                  the driving force behind our success in competitions.
+                </span>
+              </div>
+              <div class="about-us-frame11">
+                <div class="about-us-frame142">
+                  <span class="about-us-text182 Heading12">
+                    Provincials 2024
+                  </span>
+                  <span class="about-us-text183">Rookie Inspiration</span>
+                </div>
+                <div class="about-us-frame153">
+                  <span class="about-us-text184 Heading12">Waterloo 2024</span>
+                  <span class="about-us-text185">Rookie Inspiration</span>
+                </div>
+                <div class="about-us-frame162">
+                  <span class="about-us-text186 Heading12">
+                    Centennial 2024
+                  </span>
+                  <span class="about-us-text187">Rookie All Star</span>
+                </div>
+              </div>
+              <span class="about-us-text188 Heading08">Robot Designs</span>
+              <div class="about-us-frame12">
+                <div class="about-us-frame154">
+                  <span class="about-us-text189 Heading12">
+                    Crescendo Robot Design 2024
+                  </span>
+                  <span class="about-us-text190">The Bishop ♝</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-us-footer">
+              <div class="about-us-frame8">
+                <div class="about-us-frame7">
+                  <div class="about-us-frame25">
+                    <span class="about-us-text191 Heading12">Contact</span>
+                    <span class="about-us-text192 Paragraph02">
+                      <span>Royalrobotics9562@hotmail.com</span>
+                      <br />
+                      <span>School Number:</span>
+                      <br />
+                      <span>(905) - 875 - 0124</span>
+                    </span>
+                  </div>
+                  <div class="about-us-frame3">
+                    <span class="about-us-text198 Heading12">Location</span>
+                    <span class="about-us-text199 Paragraph02">
+                      1120 Main St E, Milton, ON L9T 6H7
+                    </span>
+                  </div>
+                  <div class="about-us-frame4">
+                    <span class="about-us-text200 Heading12">Socials</span>
+                    <div class="about-us-frame52">
+                      <button class="about-us-social-button">
+                        <a
+                          href="https://www.instagram.com/frc9562?igsh=aWlyNHkyNGRqZm52"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="about-us-link"
+                        >
+                          <div class="about-us-instagram">
+                            <img
+                              src="public/external/instagram1i161-glei.svg"
+                              alt="instagram1I161"
+                              class="about-us-instagram1"
+                            />
+                          </div>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-us-frame62">
+                  <div class="about-us-robotics-logo">
+                    <img
+                      src="public/external/imagei161-n3pc-200w.png"
+                      alt="imageI161"
+                      class="about-us-image2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="about-us-frame92">
+                <span class="about-us-text201 Paragraph01">
+                  © 2025 by Imagery Team
+                </span>
+                <span class="about-us-text202 Paragraph01"></span>
+              </div>
+            </div>
+          </div>
+          <div class="about-us-header">
+            <div class="about-us-center">
+              <img
+                src="public/external/rectangle1i862-20jw-200h.png"
+                alt="Rectangle1I862"
+                class="about-us-rectangle1"
+              />
+              <img
+                src="public/external/rectangle2i862-xwte-200h.png"
+                alt="Rectangle2I862"
+                class="about-us-rectangle2"
+              />
+              <img
+                src="public/external/rectangle3i862-cdv9-200h.png"
+                alt="Rectangle3I862"
+                class="about-us-rectangle3"
+              />
+              <img
+                src="public/external/rectangle4i862-dwa-200h.png"
+                alt="Rectangle4I862"
+                class="about-us-rectangle4"
+              />
+              <img
+                src="public/external/rectangle5i862-0qk8-200h.png"
+                alt="Rectangle5I862"
+                class="about-us-rectangle5"
+              />
+              <img
+                src="public/external/roboticslogo012i862-iva-200h.png"
+                alt="RoboticsLogo012I862"
+                class="about-us-robotics-logo012"
+              />
+            </div>
+            <div class="aboutus-right">
+              <a href="contectus.html" class="contact-us-button">Contact Us</a>
+            </div>
+            <div class="aboutus-middle-right">
+              <a href="donations.html" class="donations-button">Donations</a>
+            </div>
+            <div class="aboutus-middle-left">
+              <a href="about-us.html" class="about-us-button">About Us</a>
+            </div>
+            <div class="aboutus-left">
+              <a href="index.html" class="home-button">Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
